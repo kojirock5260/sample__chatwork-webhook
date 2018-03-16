@@ -1,0 +1,15 @@
+{
+  "require": {
+    "polidog/php-chatwork-api": "2.x-dev",
+    "cakephp/utility": "3.0.0-beta3",
+    "vlucas/phpdotenv": "^2.4",
+    "predis/predis": "v1.*",
+    "pimple/pimple": "^3.2",
+    "monolog/monolog": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kojirock\\": "src"
+    }
+  }
+}
